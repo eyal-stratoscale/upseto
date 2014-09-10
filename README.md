@@ -9,6 +9,7 @@ What does it do?
 
 Setup:
 ------
+Make sure you have yaml install, if not, install it by: 'pip instal pyyaml'.
 Run make install. Make sure you have your github account setup in
 ~/.netrc, for all the git fetch operations
 ```
@@ -17,6 +18,8 @@ machine github.com
   password <your password or key>
 ```
 http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-github
+
+If you installed the upseto without yaml and you get 'ImportError: No module named yaml', you should 'sudo rm /usr/lib/python2.7/site-packages/upseto.pth', then install yaml, then install upseto again.
 
 Command Line Usage:
 -------------------
